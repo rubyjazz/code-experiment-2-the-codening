@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: #F6B4C3;
+
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+  font-family: 'PT Mono', monospace;
+  font-size: 18px;
+
+}
+li  {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #2C2828;
+}
+
+#batcave {
+  display: flex;
+  width: 900px;
+  height: 222px;
+  transform: rotate(-6deg);
+  margin: auto;
+  background-image: url(images/batcave.svg);
+  fill: #2C2828;
+}
+
+#batcave p {
+  font-family: 'PT Mono', monospace;
+  font-size: 18px;
+  color:  #2C2828;
+  margin-left: 380px;
+  margin-top: 220px;
+}
+
+#black-box {
+  display: flex;
+  margin: auto;
+  width: 97%;
+  height: 500px;
+  background-color: #2C2828;
+  margin-top: 20px;
+}
+.box-one {
+
+  margin-top: 90px;
+  margin-left: 50px;
+  border-bottom: 200px solid #F6B4C3;
+	border-left: 12px solid transparent;
+	border-right: 10px solid transparent;
+  border-top: 103 solid #F6B4C3;
+	height: 0;
+	width: 30%;
+  min-width: 350px;
+  -webkit-transform: skew(3deg);
+	   -moz-transform: skew(3deg);
+	     -o-transform: skew(3deg);
+}
+
+.box-one p {
+  font-family: doctor-punk;
+}
