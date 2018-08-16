@@ -4,6 +4,16 @@ body {
 
 }
 
+@font-face {
+    font-family: 'doctor_punkregular';
+    src: url('doctor_punk-webfont.woff2') format('woff2'),
+         url('doctor_punk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 #container {
   display: flex;
   flex-direction: column;
@@ -13,7 +23,7 @@ body {
 ul {
   list-style-type: none;
   font-family: 'PT Mono', monospace;
-  font-size: 18px;
+  font-size: 15px;
 
 }
 li  {
@@ -24,21 +34,28 @@ a {
   color: #2C2828;
 }
 
+a:hover {
+    text-decoration: line-through;
+}
+
 #batcave {
   display: flex;
   width: 900px;
   height: 222px;
   transform: rotate(-6deg);
-  margin: auto;
-  background-image: url(images/batcave.svg);
+  margin-top: -30px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/batcave.png);
   fill: #2C2828;
 }
 
 #batcave p {
   font-family: 'PT Mono', monospace;
-  font-size: 18px;
+  font-size: 15px;
   color:  #2C2828;
-  margin-left: 380px;
+  margin-left: 450px;
   margin-top: 220px;
 }
 
@@ -55,7 +72,7 @@ a {
   margin-top: 90px;
   margin-left: 50px;
   border-bottom: 200px solid #F6B4C3;
-	border-left: 12px solid transparent;
+	border-left: 15px solid transparent;
 	border-right: 10px solid transparent;
   border-top: 103 solid #F6B4C3;
 	height: 0;
@@ -66,6 +83,51 @@ a {
 	     -o-transform: skew(3deg);
 }
 
-.box-one p {
-  font-family: doctor-punk;
+.box-two {
+
+  margin-top: 200px;
+  margin-left: 50px;
+  border-bottom: 200px solid #F6B4C3;
+	border-left: 15px solid transparent;
+	border-right: 10px solid transparent;
+  border-top: 103 solid #F6B4C3;
+	height: 0;
+	width: 45%;
+  min-width: 350px;
+  -webkit-transform: skew(3deg);
+	   -moz-transform: skew(3deg);
+	     -o-transform: skew(3deg);
 }
+
+.box-one p {
+  font-family: 'doctor_punkregular';
+  font-size: 65px;
+  margin:35px;
+  color: #2C2828;
+}
+
+.box-two p {
+  font-family: 'doctor_punkregular';
+  font-size: 70px;
+  margin:35px 20px;
+  color: #2C2828;
+}
+
+.featuring {
+  margin-top: 30px;
+  margin-left: 50px;
+  position: absolute;
+  font-family: 'PT Mono' , monospace;
+  color: #F6B4C3;
+}
+
+.and {
+  margin-top: 350px;
+  margin-left: 350px;
+  position: absolute;
+  font-family: 'PT Mono' , monospace;
+  color: #F6B4C3;
+
+}
+
+/* break points : 1023px, 800px */
