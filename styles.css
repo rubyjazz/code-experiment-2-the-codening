@@ -63,12 +63,12 @@ a:hover {
   display: flex;
   margin: auto;
   width: 97%;
-  height: 500px;
+  height: 700px;
   background-color: #2C2828;
   margin-top: 20px;
 }
 .box-one {
-
+  float: left;
   margin-top: 90px;
   margin-left: 50px;
   border-bottom: 200px solid #F6B4C3;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .box-two {
-
+  float: right;
   margin-top: 200px;
   margin-left: 50px;
   border-bottom: 200px solid #F6B4C3;
@@ -94,6 +94,22 @@ a:hover {
 	height: 0;
 	width: 45%;
   min-width: 350px;
+  -webkit-transform: skew(3deg);
+	   -moz-transform: skew(3deg);
+	     -o-transform: skew(3deg);
+}
+
+#box-three {
+  float: left;
+  margin-top: 450px;
+  margin-left: -900px;
+  border-bottom: 200px solid #F6B4C3;
+	border-left: 15px solid transparent;
+	border-right: 0px solid transparent;
+  border-top: 103 solid #F6B4C3;
+	height: 0;
+	width: 45%;
+  min-width: 850px;
   -webkit-transform: skew(3deg);
 	   -moz-transform: skew(3deg);
 	     -o-transform: skew(3deg);
@@ -113,6 +129,13 @@ a:hover {
   color: #2C2828;
 }
 
+#box-three p {
+  font-family: 'doctor_punkregular';
+  font-size: 175px;
+  color: #2C2828;
+  margin: 15px 120px;
+}
+
 .featuring {
   margin-top: 30px;
   margin-left: 50px;
@@ -122,7 +145,7 @@ a:hover {
 }
 
 .and {
-  margin-top: 350px;
+  margin-top: 390px;
   margin-left: 350px;
   position: absolute;
   font-family: 'PT Mono' , monospace;
