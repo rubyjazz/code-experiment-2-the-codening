@@ -153,18 +153,30 @@ a:hover {
 
 }
 
+
+
 #textbox {
-  display:inline;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
   width: 500px;
   height: 300px;
   margin-top: 50px;
   margin-left: 70px;
+  overflow: hidden;
 }
 
 #textbox p {
   font-family: "PT mono" , monospace;
   font-size: 15px;
+}
+
+.box-four {
+
+  float: right;
+  height: 170px;
+  width: 300px;
+  background-color: #2C2828;
 }
 
 footer {
